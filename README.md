@@ -55,9 +55,9 @@ and version 7 of ps is in side C:\Users\USER\Documents\PowerShell
 ### Customizations in cmd
 1. I did not do any change in cmd, just call `powershell` to summon it there and use powershell from cmd
 
-## About `Microsoft.PowerShell_profile.ps1`:
+## About `Microsoft.PowerShell_profile_ps5.ps1`:
 Its the script for adding functionality in powershell, you will create one via watching the videos.
-Same goes for `Microsoft.PowerShell_profile_7.ps1`
+Same goes for `Microsoft.PowerShell_profile.ps1`
 
 ## Full playlist and blog posts that helped me to do this:
 **Playlist:** https://www.youtube.com/playlist?list=PLpXNRoFc3V1HC93g55Qgl9YNM_4tHaKPP
