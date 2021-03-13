@@ -6,452 +6,450 @@
 // To view the default settings, hold "alt" while clicking on the "Settings" button.
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
 {
-    "$schema": "https://aka.ms/terminal-profiles-schema",
-  
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-  
-    // You can add more global application settings here.
-    // To learn more about global settings, visit https://aka.ms/terminal-global-settings
-  
-    // If enabled, selections are automatically copied to your clipboard.
-    "copyOnSelect": true,
-  
-    // If enabled, formatted data is also copied to your clipboard
-    "copyFormatting": false,
-  
-    // A profile specifies a command to execute paired with information about how it should look and feel.
-    // Each one of them will appear in the 'New Tab' dropdown,
-    //   and can be invoked from the commandline with `wt.exe -p xxx`
-    // To learn more about profiles, visit https://aka.ms/terminal-profile-settings
-    "profiles": {
-      "defaults": {
-        // "fontFace": "Cascadia Code PL",
-        "fontSize": 10
-        // Put settings here that you want to apply to all profiles.
-      },
-      "list": [
-        {
-          // Make changes here to the powershell.exe profile.
-          "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-          "name": "Windows PowerShell",
-          "commandline": "powershell.exe",
-          // "colorScheme": "Cobalt Neon",
-          "colorScheme": "FrontEndDelight",
-          "cursorColor": "#81f037",
-          "cursorShape": "filledBox",
-          "hidden": false,
-          "acrylicOpacity": 0.60,
-          "useAcrylic": true,
-          "fontSize": 11,
-          // "fontFace": "Meslo LG L for PowerLine"
-          // "fontFace": "ProFont for Powerline",
-          "fontFace": "Cascadia Code PL",
-          "icon": "C:\\windows_terminal\\man.png",
-          "backgroundImage": "C:\\windows_terminal\\cmd1.jpg",
-          "startingDirectory": "D:\\Documents"
-        },
-        {
-          // Make changes here to the cmd.exe profile.
-          "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-          "name": "Command Prompt",
-          "commandline": "cmd.exe",
-          "colorScheme": "Cyberdyne",
-          "cursorColor": "#81f037",
-          "cursorShape": "filledBox",
-          "fontFace": "Cascadia Code PL",
-          // "fontFace": "Space Mono for Powerline",
-          // "fontFace": "ProFont for Powerline",
-          "fontSize": 12,
-          "hidden": false,
-          "acrylicOpacity": 0.60,
-          // "fontFace": "Cascadia Code PL",
-          "useAcrylic": true,
-          "backgroundImage": "C:\\windows_terminal\\ps1.jpg",
-          // "startingDirectory": "D:\\Documents"
-          // "fontSize": 11,
-          // "fontFace": "Roboto Mono"
-        },
-        // {
-        //   "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-        //   "hidden": false,
-        //   "name": "Azure Cloud Shell",
-        //   "source": "Windows.Terminal.Azure",
-        //   "colorScheme": "One Half Dark",
-        //   "acrylicOpacity": 0.60,
-        //   "useAcrylic": true,
-        //   "fontSize": 11,
-        //   "fontFace": "Roboto Mono"
-        // },
-        {
-          "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-          "hidden": false,
-          "name": "Ubuntu-18.04",
-          "source": "Windows.Terminal.Wsl",
-          "colorScheme": "Ubuntu 18.04",
-          "acrylicOpacity": 0.60,
-          "useAcrylic": true,
-          // "icon": "C:\\windows_terminal\\ubuntu.png",
-          // "backgroundImage": "C:\\windows_terminal\\night_sky.jpg"
-        }, // Icon can be found on http://bit.ly/2LzTHlp
-        {
-          "tabTitle": "Git Bash",
-          "acrylicOpacity": 0.60,
-          "closeOnExit": true,
-          "colorScheme": "Cobalt Neon",
-          "commandline": "C:/Program Files/Git/bin/bash.exe --login",
-          "cursorColor": "#79ff2c",
-          "cursorShape": "filledBox",
-          "fontFace": "Consolas",
-          "fontSize": 12,
-          "guid": "{14ad203f-52cc-4110-90d6-d96e0f41b64d}",
-          "historySize": 9001,
-          "icon": "C:\\windows_terminal\\Octocat.png",
-          "name": "Git Bash",
-          "padding": "0, 0, 0, 0",
-          "snapOnInput": true,
-          "useAcrylic": true,
-          "backgroundImage": "C:\\windows_terminal\\git2.jpg"
-        },
-        {
-            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-            "hidden": false,
-            "name": "Ubuntu",
-            "source": "Windows.Terminal.Wsl",
-            "icon": "C:\\windows_terminal\\ubuntu.png",
-            "backgroundImage": "C:\\windows_terminal\\ubuntu1.jpg",
-            "fontFace": "DroidSansMono Nerd Font",
-            "colorScheme": "Dracula",
-            "cursorShape": "filledBox",
-            "cursorColor": "#81f037"
-        }, // Icon can be found on http://bit.ly/2RvDly3
-        {
-            "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-            "hidden": false,
-            "name": "PowerShell",
-            "source": "Windows.Terminal.PowershellCore"
-        },
-        {
-            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-            "hidden": false,
-            "name": "Azure Cloud Shell",
-            "source": "Windows.Terminal.Azure"
-        }
-        // {
-        //     "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-        //     "hidden": false,
-        //     "name": "Azure Cloud Shell",
-        //     "source": "Windows.Terminal.Azure"
-        // }
-        
-      ]
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+
+  // You can add more global application settings here.
+  // To learn more about global settings, visit https://aka.ms/terminal-global-settings
+
+  // If enabled, selections are automatically copied to your clipboard.
+  "copyOnSelect": true,
+
+  // If enabled, formatted data is also copied to your clipboard
+  "copyFormatting": false,
+
+  // A profile specifies a command to execute paired with information about how it should look and feel.
+  // Each one of them will appear in the 'New Tab' dropdown,
+  //   and can be invoked from the commandline with `wt.exe -p xxx`
+  // To learn more about profiles, visit https://aka.ms/terminal-profile-settings
+  "profiles": {
+    "defaults": {
+      // "fontFace": "Cascadia Code PL",
+      "fontSize": 10
+      // Put settings here that you want to apply to all profiles.
     },
-  
-    // Add custom color schemes to this array.
-    // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
-    "schemes": [
+    "list": [
       {
-        "name": "Ubuntu 18.04",
-        "foreground": "#CCCCCC",
-        "background": "#300A24",
-        "cursorColor": "#FFFFFF",
-        "black": "#0C0C0C",
-        "red": "#C50F1F",
-        "green": "#13A10E",
-        "yellow": "#C19C00",
-        "blue": "#0037DA",
-        "purple": "#881798",
-        "cyan": "#3A96DD",
-        "white": "#CCCCCC",
-        "brightBlack": "#767676",
-        "brightRed": "#E74856",
-        "brightGreen": "#16C60C",
-        "brightYellow": "#F9F1A5",
-        "brightBlue": "#3B78FF",
-        "brightPurple": "#B4009E",
-        "brightCyan": "#61D6D6",
-        "brightWhite": "#F2F2F2"
+        // Make changes here to the powershell.exe profile.
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "name": "Windows PowerShell",
+        "commandline": "powershell.exe",
+        // "colorScheme": "Cobalt Neon",
+        "colorScheme": "FrontEndDelight",
+        "cursorColor": "#81f037",
+        "cursorShape": "filledBox",
+        "hidden": false,
+        "acrylicOpacity": 0.60,
+        "useAcrylic": true,
+        "fontSize": 11,
+        // "fontFace": "Meslo LG L for PowerLine"
+        // "fontFace": "ProFont for Powerline",
+        "fontFace": "Cascadia Code PL",
+        "icon": "C:\\windows_terminal\\man.png",
+        "backgroundImage": "C:\\windows_terminal\\cmd1.jpg",
+        "startingDirectory": "D:\\Documents"
       },
       {
-        "name": "purplepeter",
-        "black": "#0a0520",
-        "red": "#ff796d",
-        "green": "#99b481",
-        "yellow": "#efdfac",
-        "blue": "#66d9ef",
-        "purple": "#e78fcd",
-        "cyan": "#ba8cff",
-        "white": "#ffba81",
-        "brightBlack": "#100b23",
-        "brightRed": "#f99f92",
-        "brightGreen": "#b4be8f",
-        "brightYellow": "#f2e9bf",
-        "brightBlue": "#79daed",
-        "brightPurple": "#ba91d4",
-        "brightCyan": "#a0a0d6",
-        "brightWhite": "#b9aed3",
-        "background": "#2a1a4a",
-        "foreground": "#ece7fa",
-        "selectionBackground": "#8689c2",
-        "cursorColor": "#c7c7c7"
+        // Make changes here to the cmd.exe profile.
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "name": "Command Prompt",
+        "commandline": "cmd.exe",
+        "colorScheme": "Cyberdyne",
+        "cursorColor": "#81f037",
+        "cursorShape": "filledBox",
+        "fontFace": "Cascadia Code PL",
+        // "fontFace": "Space Mono for Powerline",
+        // "fontFace": "ProFont for Powerline",
+        "fontSize": 12,
+        "hidden": false,
+        "acrylicOpacity": 0.60,
+        // "fontFace": "Cascadia Code PL",
+        "useAcrylic": true,
+        "icon": "C:\\windows_terminal\\consol.png",
+        "backgroundImage": "C:\\windows_terminal\\ps1.jpg",
+        // "startingDirectory": "D:\\Documents"
+        // "fontSize": 11,
+        // "fontFace": "Roboto Mono"
+      },
+
+      {
+        "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+        "hidden": false,
+        "name": "Ubuntu-18.04",
+        "source": "Windows.Terminal.Wsl",
+        "colorScheme": "Ubuntu 18.04",
+        "acrylicOpacity": 0.60,
+        "useAcrylic": true
+        // "icon": "C:\\windows_terminal\\ubuntu.png",
+        // "backgroundImage": "C:\\windows_terminal\\night_sky.jpg"
+      }, // Icon can be found on http://bit.ly/2LzTHlp
+      {
+        "tabTitle": "Git Bash",
+        "acrylicOpacity": 0.60,
+        "closeOnExit": true,
+        "colorScheme": "Cobalt Neon",
+        "commandline": "C:/Program Files/Git/bin/bash.exe --login",
+        "cursorColor": "#79ff2c",
+        "cursorShape": "filledBox",
+        "fontFace": "Consolas",
+        "fontSize": 12,
+        "guid": "{14ad203f-52cc-4110-90d6-d96e0f41b64d}",
+        "historySize": 9001,
+        "icon": "C:\\windows_terminal\\Octocat.png",
+        "name": "Git Bash",
+        "padding": "0, 0, 0, 0",
+        "snapOnInput": true,
+        "useAcrylic": true,
+        "backgroundImage": "C:\\windows_terminal\\git2.jpg"
       },
       {
-        "name": "Cobalt Neon",
-        "black": "#142631",
-        "red": "#ff2320",
-        "green": "#3ba5ff",
-        "yellow": "#e9e75c",
-        "blue": "#8ff586",
-        "purple": "#781aa0",
-        "cyan": "#8ff586",
-        "white": "#ba46b2",
-        "brightBlack": "#fff688",
-        "brightRed": "#d4312e",
-        "brightGreen": "#8ff586",
-        "brightYellow": "#e9f06d",
-        "brightBlue": "#3c7dd2",
-        "brightPurple": "#8230a7",
-        "brightCyan": "#6cbc67",
-        "brightWhite": "#8ff586",
-        "background": "#142838",
-        "foreground": "#8ff586",
-        "selectionBackground": "#094fb1",
-        "cursorColor": "#c4206f"
+          "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+          "hidden": false,
+          "name": "Ubuntu",
+          "source": "Windows.Terminal.Wsl",
+          "icon": "C:\\windows_terminal\\ubuntu.png",
+          "backgroundImage": "C:\\windows_terminal\\ubuntu1.jpg",
+          "fontFace": "DroidSansMono Nerd Font",
+          "colorScheme": "Dracula",
+          "cursorShape": "filledBox",
+          "cursorColor": "#81f037"
       },
       {
-        "name": "Duotone Dark",
-        "black": "#1f1d27",
-        "red": "#d9393e",
-        "green": "#2dcd73",
-        "yellow": "#d9b76e",
-        "blue": "#ffc284",
-        "purple": "#de8d40",
-        "cyan": "#2488ff",
-        "white": "#b7a1ff",
-        "brightBlack": "#353147",
-        "brightRed": "#d9393e",
-        "brightGreen": "#2dcd73",
-        "brightYellow": "#d9b76e",
-        "brightBlue": "#ffc284",
-        "brightPurple": "#de8d40",
-        "brightCyan": "#2488ff",
-        "brightWhite": "#eae5ff",
-        "background": "#1f1d27",
-        "foreground": "#b7a1ff",
-        "selectionBackground": "#353147",
-        "cursorColor": "#ff9839"
+          "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+          "hidden": false,
+          "name": "PowerShell",
+          "source": "Windows.Terminal.PowershellCore",
+          "fontFace": "Cascadia Code PL",
+        // "icon": "C:\\windows_terminal\\man.png",
+        "backgroundImage": "C:\\windows_terminal\\ps7_2.jpg",
+        "startingDirectory": "D:\\Documents",
+        "cursorColor": "#81f037",
+        "cursorShape": "filledBox"
+          
       },
       {
-        "name": "Cyberdyne",
-        "black": "#080808",
-        "red": "#ff8373",
-        "green": "#00c172",
-        "yellow": "#d2a700",
-        "blue": "#0071cf",
-        "purple": "#ff90fe",
-        "cyan": "#6bffdd",
-        "white": "#f1f1f1",
-        "brightBlack": "#2e2e2e",
-        "brightRed": "#ffc4be",
-        "brightGreen": "#d6fcba",
-        "brightYellow": "#fffed5",
-        "brightBlue": "#c2e3ff",
-        "brightPurple": "#ffb2fe",
-        "brightCyan": "#e6e7fe",
-        "brightWhite": "#ffffff",
-        "background": "#151144",
-        "foreground": "#00ff92",
-        "selectionBackground": "#454d96",
-        "cursorColor": "#00ff9c"
-      },
-      {
-        "name": "synthwave-everything",
-        "black": "#fefefe",
-        "red": "#f97e72",
-        "green": "#72f1b8",
-        "yellow": "#fede5d",
-        "blue": "#6d77b3",
-        "purple": "#c792ea",
-        "cyan": "#f772e0",
-        "white": "#fefefe",
-        "brightBlack": "#fefefe",
-        "brightRed": "#f88414",
-        "brightGreen": "#72f1b8",
-        "brightYellow": "#fff951",
-        "brightBlue": "#36f9f6",
-        "brightPurple": "#e1acff",
-        "brightCyan": "#f92aad",
-        "brightWhite": "#fefefe",
-        "background": "#2a2139",
-        "foreground": "#f0eff1",
-        "selectionBackground": "#181521",
-        "cursorColor": "#72f1b8"
-      },
-      {
-        "name": "Blue Matrix",
-        "black": "#101116",
-        "red": "#ff5680",
-        "green": "#00ff9c",
-        "yellow": "#fffc58",
-        "blue": "#00b0ff",
-        "purple": "#d57bff",
-        "cyan": "#76c1ff",
-        "white": "#c7c7c7",
-        "brightBlack": "#686868",
-        "brightRed": "#ff6e67",
-        "brightGreen": "#5ffa68",
-        "brightYellow": "#fffc67",
-        "brightBlue": "#6871ff",
-        "brightPurple": "#d682ec",
-        "brightCyan": "#60fdff",
-        "brightWhite": "#ffffff",
-        "background": "#101116",
-        "foreground": "#00a2ff",
-        "selectionBackground": "#c1deff",
-        "cursorColor": "#76ff9f"
-      },
-      {
-        "name": "cyberpunk",
-        "black": "#000000",
-        "red": "#ff7092",
-        "green": "#00fbac",
-        "yellow": "#fffa6a",
-        "blue": "#00bfff",
-        "purple": "#df95ff",
-        "cyan": "#86cbfe",
-        "white": "#ffffff",
-        "brightBlack": "#000000",
-        "brightRed": "#ff8aa4",
-        "brightGreen": "#21f6bc",
-        "brightYellow": "#fff787",
-        "brightBlue": "#1bccfd",
-        "brightPurple": "#e6aefe",
-        "brightCyan": "#99d6fc",
-        "brightWhite": "#ffffff",
-        "background": "#332a57",
-        "foreground": "#e5e5e5",
-        "selectionBackground": "#c1deff",
-        "cursorColor": "#21f6bc"
-      },
-      {
-        "name": "Dracula",
-        "black": "#000000",
-        "red": "#ff5555",
-        "green": "#50fa7b",
-        "yellow": "#f1fa8c",
-        "blue": "#bd93f9",
-        "purple": "#ff79c6",
-        "cyan": "#8be9fd",
-        "white": "#bbbbbb",
-        "brightBlack": "#555555",
-        "brightRed": "#ff5555",
-        "brightGreen": "#50fa7b",
-        "brightYellow": "#f1fa8c",
-        "brightBlue": "#bd93f9",
-        "brightPurple": "#ff79c6",
-        "brightCyan": "#8be9fd",
-        "brightWhite": "#ffffff",
-        "background": "#1e1f29",
-        "foreground": "#f8f8f2",
-        "selectionBackground": "#44475a",
-        "cursorColor": "#bbbbbb"
-      },
-      {
-        "name": "Flatland",
-        "black": "#1d1d19",
-        "red": "#f18339",
-        "green": "#9fd364",
-        "yellow": "#f4ef6d",
-        "blue": "#5096be",
-        "purple": "#695abc",
-        "cyan": "#d63865",
-        "white": "#ffffff",
-        "brightBlack": "#1d1d19",
-        "brightRed": "#d22a24",
-        "brightGreen": "#a7d42c",
-        "brightYellow": "#ff8949",
-        "brightBlue": "#61b9d0",
-        "brightPurple": "#695abc",
-        "brightCyan": "#d63865",
-        "brightWhite": "#ffffff",
-        "background": "#1d1f21",
-        "foreground": "#b8dbef",
-        "selectionBackground": "#2b2a24",
-        "cursorColor": "#708284"
-      },
-      {
-        "name": "Galaxy",
-        "black": "#000000",
-        "red": "#f9555f",
-        "green": "#21b089",
-        "yellow": "#fef02a",
-        "blue": "#589df6",
-        "purple": "#944d95",
-        "cyan": "#1f9ee7",
-        "white": "#bbbbbb",
-        "brightBlack": "#555555",
-        "brightRed": "#fa8c8f",
-        "brightGreen": "#35bb9a",
-        "brightYellow": "#ffff55",
-        "brightBlue": "#589df6",
-        "brightPurple": "#e75699",
-        "brightCyan": "#3979bc",
-        "brightWhite": "#ffffff",
-        "background": "#1d2837",
-        "foreground": "#ffffff",
-        "selectionBackground": "#b5d5ff",
-        "cursorColor": "#bbbbbb"
-      },
-      {
-        "name": "FrontEndDelight",
-        "black": "#242526",
-        "red": "#f8511b",
-        "green": "#565747",
-        "yellow": "#fa771d",
-        "blue": "#2c70b7",
-        "purple": "#f02e4f",
-        "cyan": "#3ca1a6",
-        "white": "#adadad",
-        "brightBlack": "#5fac6d",
-        "brightRed": "#f74319",
-        "brightGreen": "#74ec4c",
-        "brightYellow": "#fdc325",
-        "brightBlue": "#3393ca",
-        "brightPurple": "#e75e4f",
-        "brightCyan": "#4fbce6",
-        "brightWhite": "#8c735b",
-        "background": "#1b1c1d",
-        "foreground": "#adadad",
-        "selectionBackground": "#ea6154",
-        "cursorColor": "#cdcdcd"
-      }
-    ],
-  
-    // Add custom keybindings to this array.
-    // To unbind a key combination from your defaults.json, set the command to "unbound".
-    // To learn more about keybindings, visit https://aka.ms/terminal-keybindings
-    "keybindings": [
-      // Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
-      // These two lines additionally bind them to Ctrl+C and Ctrl+V.
-      // To learn more about selection, visit https://aka.ms/terminal-selection
-      { "command": { "action": "copy", "singleLine": false }, "keys": "ctrl+c" },
-      { "command": "paste", "keys": "ctrl+v" },
-  
-      // Press Ctrl+Shift+F to open the search box
-      { "command": "find", "keys": "ctrl+shift+f" },
-  
-      // Press Alt+Shift+D to open a new pane.
-      // - "split": "auto" makes this pane open in the direction that provides the most surface area.
-      // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
-      // To learn more about panes, visit https://aka.ms/terminal-panes
-      {
-        "command": {
-          "action": "splitPane",
-          "split": "auto",
-          "splitMode": "duplicate"
-        },
-        "keys": "alt+shift+d"
-      },
-      { "command":{"action": "splitPane","split": "auto","splitMode": "duplicate"},"keys":"alt+shift+d"}
+          "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+          "hidden": false,
+          "name": "Azure Cloud Shell",
+          "source": "Windows.Terminal.Azure"
+      } // Icon can be found on http://bit.ly/2RvDly3
+      
+      // {
+      //     "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+      //     "hidden": false,
+      //     "name": "Azure Cloud Shell",
+      //     "source": "Windows.Terminal.Azure"
+      // }
+      
     ]
-  }
-  
+  },
+
+  // Add custom color schemes to this array.
+  // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
+  "schemes": [
+    {
+      "name": "Ubuntu 18.04",
+      "foreground": "#CCCCCC",
+      "background": "#300A24",
+      "cursorColor": "#FFFFFF",
+      "black": "#0C0C0C",
+      "red": "#C50F1F",
+      "green": "#13A10E",
+      "yellow": "#C19C00",
+      "blue": "#0037DA",
+      "purple": "#881798",
+      "cyan": "#3A96DD",
+      "white": "#CCCCCC",
+      "brightBlack": "#767676",
+      "brightRed": "#E74856",
+      "brightGreen": "#16C60C",
+      "brightYellow": "#F9F1A5",
+      "brightBlue": "#3B78FF",
+      "brightPurple": "#B4009E",
+      "brightCyan": "#61D6D6",
+      "brightWhite": "#F2F2F2"
+    },
+    {
+      "name": "purplepeter",
+      "black": "#0a0520",
+      "red": "#ff796d",
+      "green": "#99b481",
+      "yellow": "#efdfac",
+      "blue": "#66d9ef",
+      "purple": "#e78fcd",
+      "cyan": "#ba8cff",
+      "white": "#ffba81",
+      "brightBlack": "#100b23",
+      "brightRed": "#f99f92",
+      "brightGreen": "#b4be8f",
+      "brightYellow": "#f2e9bf",
+      "brightBlue": "#79daed",
+      "brightPurple": "#ba91d4",
+      "brightCyan": "#a0a0d6",
+      "brightWhite": "#b9aed3",
+      "background": "#2a1a4a",
+      "foreground": "#ece7fa",
+      "selectionBackground": "#8689c2",
+      "cursorColor": "#c7c7c7"
+    },
+    {
+      "name": "Cobalt Neon",
+      "black": "#142631",
+      "red": "#ff2320",
+      "green": "#3ba5ff",
+      "yellow": "#e9e75c",
+      "blue": "#8ff586",
+      "purple": "#781aa0",
+      "cyan": "#8ff586",
+      "white": "#ba46b2",
+      "brightBlack": "#fff688",
+      "brightRed": "#d4312e",
+      "brightGreen": "#8ff586",
+      "brightYellow": "#e9f06d",
+      "brightBlue": "#3c7dd2",
+      "brightPurple": "#8230a7",
+      "brightCyan": "#6cbc67",
+      "brightWhite": "#8ff586",
+      "background": "#142838",
+      "foreground": "#8ff586",
+      "selectionBackground": "#094fb1",
+      "cursorColor": "#c4206f"
+    },
+    {
+      "name": "Duotone Dark",
+      "black": "#1f1d27",
+      "red": "#d9393e",
+      "green": "#2dcd73",
+      "yellow": "#d9b76e",
+      "blue": "#ffc284",
+      "purple": "#de8d40",
+      "cyan": "#2488ff",
+      "white": "#b7a1ff",
+      "brightBlack": "#353147",
+      "brightRed": "#d9393e",
+      "brightGreen": "#2dcd73",
+      "brightYellow": "#d9b76e",
+      "brightBlue": "#ffc284",
+      "brightPurple": "#de8d40",
+      "brightCyan": "#2488ff",
+      "brightWhite": "#eae5ff",
+      "background": "#1f1d27",
+      "foreground": "#b7a1ff",
+      "selectionBackground": "#353147",
+      "cursorColor": "#ff9839"
+    },
+    {
+      "name": "Cyberdyne",
+      "black": "#080808",
+      "red": "#ff8373",
+      "green": "#00c172",
+      "yellow": "#d2a700",
+      "blue": "#0071cf",
+      "purple": "#ff90fe",
+      "cyan": "#6bffdd",
+      "white": "#f1f1f1",
+      "brightBlack": "#2e2e2e",
+      "brightRed": "#ffc4be",
+      "brightGreen": "#d6fcba",
+      "brightYellow": "#fffed5",
+      "brightBlue": "#c2e3ff",
+      "brightPurple": "#ffb2fe",
+      "brightCyan": "#e6e7fe",
+      "brightWhite": "#ffffff",
+      "background": "#151144",
+      "foreground": "#00ff92",
+      "selectionBackground": "#454d96",
+      "cursorColor": "#00ff9c"
+    },
+    {
+      "name": "synthwave-everything",
+      "black": "#fefefe",
+      "red": "#f97e72",
+      "green": "#72f1b8",
+      "yellow": "#fede5d",
+      "blue": "#6d77b3",
+      "purple": "#c792ea",
+      "cyan": "#f772e0",
+      "white": "#fefefe",
+      "brightBlack": "#fefefe",
+      "brightRed": "#f88414",
+      "brightGreen": "#72f1b8",
+      "brightYellow": "#fff951",
+      "brightBlue": "#36f9f6",
+      "brightPurple": "#e1acff",
+      "brightCyan": "#f92aad",
+      "brightWhite": "#fefefe",
+      "background": "#2a2139",
+      "foreground": "#f0eff1",
+      "selectionBackground": "#181521",
+      "cursorColor": "#72f1b8"
+    },
+    {
+      "name": "Blue Matrix",
+      "black": "#101116",
+      "red": "#ff5680",
+      "green": "#00ff9c",
+      "yellow": "#fffc58",
+      "blue": "#00b0ff",
+      "purple": "#d57bff",
+      "cyan": "#76c1ff",
+      "white": "#c7c7c7",
+      "brightBlack": "#686868",
+      "brightRed": "#ff6e67",
+      "brightGreen": "#5ffa68",
+      "brightYellow": "#fffc67",
+      "brightBlue": "#6871ff",
+      "brightPurple": "#d682ec",
+      "brightCyan": "#60fdff",
+      "brightWhite": "#ffffff",
+      "background": "#101116",
+      "foreground": "#00a2ff",
+      "selectionBackground": "#c1deff",
+      "cursorColor": "#76ff9f"
+    },
+    {
+      "name": "cyberpunk",
+      "black": "#000000",
+      "red": "#ff7092",
+      "green": "#00fbac",
+      "yellow": "#fffa6a",
+      "blue": "#00bfff",
+      "purple": "#df95ff",
+      "cyan": "#86cbfe",
+      "white": "#ffffff",
+      "brightBlack": "#000000",
+      "brightRed": "#ff8aa4",
+      "brightGreen": "#21f6bc",
+      "brightYellow": "#fff787",
+      "brightBlue": "#1bccfd",
+      "brightPurple": "#e6aefe",
+      "brightCyan": "#99d6fc",
+      "brightWhite": "#ffffff",
+      "background": "#332a57",
+      "foreground": "#e5e5e5",
+      "selectionBackground": "#c1deff",
+      "cursorColor": "#21f6bc"
+    },
+    {
+      "name": "Dracula",
+      "black": "#000000",
+      "red": "#ff5555",
+      "green": "#50fa7b",
+      "yellow": "#f1fa8c",
+      "blue": "#bd93f9",
+      "purple": "#ff79c6",
+      "cyan": "#8be9fd",
+      "white": "#bbbbbb",
+      "brightBlack": "#555555",
+      "brightRed": "#ff5555",
+      "brightGreen": "#50fa7b",
+      "brightYellow": "#f1fa8c",
+      "brightBlue": "#bd93f9",
+      "brightPurple": "#ff79c6",
+      "brightCyan": "#8be9fd",
+      "brightWhite": "#ffffff",
+      "background": "#1e1f29",
+      "foreground": "#f8f8f2",
+      "selectionBackground": "#44475a",
+      "cursorColor": "#bbbbbb"
+    },
+    {
+      "name": "Flatland",
+      "black": "#1d1d19",
+      "red": "#f18339",
+      "green": "#9fd364",
+      "yellow": "#f4ef6d",
+      "blue": "#5096be",
+      "purple": "#695abc",
+      "cyan": "#d63865",
+      "white": "#ffffff",
+      "brightBlack": "#1d1d19",
+      "brightRed": "#d22a24",
+      "brightGreen": "#a7d42c",
+      "brightYellow": "#ff8949",
+      "brightBlue": "#61b9d0",
+      "brightPurple": "#695abc",
+      "brightCyan": "#d63865",
+      "brightWhite": "#ffffff",
+      "background": "#1d1f21",
+      "foreground": "#b8dbef",
+      "selectionBackground": "#2b2a24",
+      "cursorColor": "#708284"
+    },
+    {
+      "name": "Galaxy",
+      "black": "#000000",
+      "red": "#f9555f",
+      "green": "#21b089",
+      "yellow": "#fef02a",
+      "blue": "#589df6",
+      "purple": "#944d95",
+      "cyan": "#1f9ee7",
+      "white": "#bbbbbb",
+      "brightBlack": "#555555",
+      "brightRed": "#fa8c8f",
+      "brightGreen": "#35bb9a",
+      "brightYellow": "#ffff55",
+      "brightBlue": "#589df6",
+      "brightPurple": "#e75699",
+      "brightCyan": "#3979bc",
+      "brightWhite": "#ffffff",
+      "background": "#1d2837",
+      "foreground": "#ffffff",
+      "selectionBackground": "#b5d5ff",
+      "cursorColor": "#bbbbbb"
+    },
+    {
+      "name": "FrontEndDelight",
+      "black": "#242526",
+      "red": "#f8511b",
+      "green": "#565747",
+      "yellow": "#fa771d",
+      "blue": "#2c70b7",
+      "purple": "#f02e4f",
+      "cyan": "#3ca1a6",
+      "white": "#adadad",
+      "brightBlack": "#5fac6d",
+      "brightRed": "#f74319",
+      "brightGreen": "#74ec4c",
+      "brightYellow": "#fdc325",
+      "brightBlue": "#3393ca",
+      "brightPurple": "#e75e4f",
+      "brightCyan": "#4fbce6",
+      "brightWhite": "#8c735b",
+      "background": "#1b1c1d",
+      "foreground": "#adadad",
+      "selectionBackground": "#ea6154",
+      "cursorColor": "#cdcdcd"
+    }
+  ],
+
+  // Add custom keybindings to this array.
+  // To unbind a key combination from your defaults.json, set the command to "unbound".
+  // To learn more about keybindings, visit https://aka.ms/terminal-keybindings
+  "keybindings": [
+    // Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
+    // These two lines additionally bind them to Ctrl+C and Ctrl+V.
+    // To learn more about selection, visit https://aka.ms/terminal-selection
+    { "command": { "action": "copy", "singleLine": false }, "keys": "ctrl+c" },
+    { "command": "paste", "keys": "ctrl+v" },
+
+    // Press Ctrl+Shift+F to open the search box
+    { "command": "find", "keys": "ctrl+shift+f" },
+
+    // Press Alt+Shift+D to open a new pane.
+    // - "split": "auto" makes this pane open in the direction that provides the most surface area.
+    // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
+    // To learn more about panes, visit https://aka.ms/terminal-panes
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "keys": "alt+shift+d"
+    },
+    { "command":{"action": "splitPane","split": "auto","splitMode": "duplicate"},"keys":"alt+shift+d"}
+  ]
+}
