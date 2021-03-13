@@ -5,7 +5,7 @@ I renames Microsoft.PowerShell_profile.ps1 to Microsoft.PowerShell_profile_ps5.p
 and version 7 of ps is in side C:\Users\USER\Documents\PowerShell
 
 
-### Windows erminal Look:
+### Windows terminal Look:
 <br>
 <pre>
 <img src="images/3.png" width="900"> <img src="images/2.png" width="900"> <img src="images/1.png" width="900">
