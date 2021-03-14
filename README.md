@@ -1,9 +1,12 @@
 # windows-terminal-setup
-
-I renames Microsoft.PowerShell_profile.ps1 to Microsoft.PowerShell_profile_ps5.ps1 as it belongs to the powershell 5 version it is inside C:\Users\USER\Documents\WindowsPowerShell
-
-and version 7 of ps is in side C:\Users\USER\Documents\PowerShell
-
+This is the repo where i have putted my teminal setup files, and mentined how i did that. I have 6 shells in my windows terminal 
+          1. powershell,
+          2. 2. powershell 7,
+          3. cmd,
+          4. wsl ubuntu,
+          5. bash
+          6. Azure cloud shell
+Dont really use every one of them, I usually preffer to use PowerShell, but got all of them to. I did not customized Azure shell as I dont really use it and it takes time to load. I have discussed and shared the resources on how to make windows terminal look like below. If you face any problem make a issue.
 
 ### Windows terminal Look:
 <br>
@@ -67,3 +70,8 @@ Same goes for `Microsoft.PowerShell_profile.ps1`
 2. https://medium.com/@techpreacher/using-git-bash-with-the-microsoft-terminal-bd1f71fa17a1
 3. https://medium.com/analytics-vidhya/customize-your-windows-powershell-with-oh-my-posh-posh-git-93284b2749b6
 4. https://slmeng.medium.com/how-to-install-powerline-fonts-in-windows-b2eedecace58
+
+
+**Personal-note:** I renames Microsoft.PowerShell_profile.ps1 to Microsoft.PowerShell_profile_ps5.ps1 as it belongs to the powershell 5 version it is inside C:\Users\USER\Documents\WindowsPowerShell
+
+and version 7 of ps is in side C:\Users\USER\Documents\PowerShell
