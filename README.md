@@ -73,7 +73,10 @@ Same goes for `Microsoft.PowerShell_profile.ps1`
 3. https://medium.com/analytics-vidhya/customize-your-windows-powershell-with-oh-my-posh-posh-git-93284b2749b6
 4. https://slmeng.medium.com/how-to-install-powerline-fonts-in-windows-b2eedecace58
 
-
+## About `terminal_background_imgs`:
+This has all the icons and background images that I used in my windows terminal.
+## About `fonts`:
+This has different kind of fonts the that I used in my windows terminal. No need to install all of them, install what you like.
 **Personal-note:** I renames Microsoft.PowerShell_profile.ps1 to Microsoft.PowerShell_profile_ps5.ps1 as it belongs to the powershell 5 version it is inside C:\Users\USER\Documents\WindowsPowerShell
 
 and version 7 of ps is in side C:\Users\USER\Documents\PowerShell
