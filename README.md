@@ -1,14 +1,14 @@
 # windows-terminal-setup
-This is the repo where i have putted my teminal setup files, and mentined how i did that. I have 6 shells in my windows terminal 
-1. powershell,
-2. powershell 7,
+This is the repo where i have put my terminal setup files, and mentioned how i did that. I have 6 shells in my windows terminal 
+1. Powershell,
+2. PowerShell 7,
 3. cmd,
 4. wsl ubuntu,
 5. bash
 6. Azure cloud shell
 
 
-Dont really use every one of them, I usually preffer to use PowerShell, but got all of them to. I did not customized Azure shell as I dont really use it and it takes time to load. I have discussed and shared the resources on how to make windows terminal look like below. If you face any problem make a issue.
+Don't really use every one of them, I usually prefer to use PowerShell, but got all of them too. I did not customize Azure shell as I don't really use it and it takes time to load. I have discussed and shared the resources on how to make the windows terminal look like below. If you face any problem make an issue.
 
 ### Windows terminal Look:
 <br>
